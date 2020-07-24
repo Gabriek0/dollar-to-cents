@@ -1,0 +1,70 @@
+body {
+    background-color: #d3d3d3;
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 55px;
+    font-style: normal;
+    font-weight: bold;
+
+}
+
+button {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    border-radius: 8px;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    height: 35px;
+    background-color: #6FCF97;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6BB88B;
+}
+
+#dollarInput {
+    outline: none;
+    padding-left: 10px; 
+    margin-right: 20px; /*Spacing*/
+    width: 300px;
+    height: 30px;
+    left: 15px;
+    color: black;
+    font-weight: bold;
+    border-radius: 15px;
+    border: none;
+    
+}
+
+#mainContainer {
+    text-align: center;
+    margin-top: 60px;
+    width: 800px;
+    height: 500px;
+    background: #6FCF97;
+    border-radius: 15px;
+}
+
+#centsContainer {
+    margin: auto;
+    margin-top: 50px;
+    width: 400px;
+    height: 200px;
+    background: #6BB88B;
+    border-radius: 15px;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+p {
+    margin: 10px;
+}
